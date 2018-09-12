@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TDD", "TDD", "{3E25E6D2-E45B-4764-938A-53E6B945646D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciApp", "TDD\FibonnaciApp\FibonacciApp.csproj", "{9468E07B-012D-427B-AC80-C3C9F1239E0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciTest", "TDD\FibonnaciTest\FibonacciTest.csproj", "{3994D81F-F84A-4E25-9E23-9ABA4B0230BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BDD", "BDD", "{7561D377-7704-428D-900A-C5D0BBD2F98E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciTest", "BDD\FibonacciTest\FibonacciTest.csproj", "{3F2C6843-5203-4D6D-B26B-06FA31A84A47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciApp", "BDD\FibonacciApp\FibonacciApp.csproj", "{D0BAFD22-8BC4-439E-89B0-38A0E97326BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9468E07B-012D-427B-AC80-C3C9F1239E0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9468E07B-012D-427B-AC80-C3C9F1239E0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9468E07B-012D-427B-AC80-C3C9F1239E0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9468E07B-012D-427B-AC80-C3C9F1239E0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3994D81F-F84A-4E25-9E23-9ABA4B0230BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3994D81F-F84A-4E25-9E23-9ABA4B0230BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3994D81F-F84A-4E25-9E23-9ABA4B0230BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3994D81F-F84A-4E25-9E23-9ABA4B0230BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F2C6843-5203-4D6D-B26B-06FA31A84A47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F2C6843-5203-4D6D-B26B-06FA31A84A47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F2C6843-5203-4D6D-B26B-06FA31A84A47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F2C6843-5203-4D6D-B26B-06FA31A84A47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0BAFD22-8BC4-439E-89B0-38A0E97326BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0BAFD22-8BC4-439E-89B0-38A0E97326BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0BAFD22-8BC4-439E-89B0-38A0E97326BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0BAFD22-8BC4-439E-89B0-38A0E97326BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9468E07B-012D-427B-AC80-C3C9F1239E0A} = {3E25E6D2-E45B-4764-938A-53E6B945646D}
+		{3994D81F-F84A-4E25-9E23-9ABA4B0230BB} = {3E25E6D2-E45B-4764-938A-53E6B945646D}
+		{3F2C6843-5203-4D6D-B26B-06FA31A84A47} = {7561D377-7704-428D-900A-C5D0BBD2F98E}
+		{D0BAFD22-8BC4-439E-89B0-38A0E97326BC} = {7561D377-7704-428D-900A-C5D0BBD2F98E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4A12603-0DC7-491B-9D86-8A842B4EA003}
+	EndGlobalSection
+EndGlobal
